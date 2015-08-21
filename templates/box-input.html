@@ -1,0 +1,4 @@
+<div>
+  <div ng-show="invoiceServicesData.isbox" ng-click="onClickBox($event)" class="box">{{textvalue}}</div>
+  <input type="text" ng-model="textvalue" ng-show="!invoiceServicesData.isbox" ng-click="onClickInputBox($event)" click-outside="closeInputBox()" class="inputBox"/>
+</div>
